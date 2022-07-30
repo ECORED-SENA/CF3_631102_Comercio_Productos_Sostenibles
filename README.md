@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF3 Comercio de productos sostenibles**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_631102_Comercio_Productos_Sostenibles/](https://ecored-sena.github.io/CF3_631102_Comercio_Productos_Sostenibles/)
 
 #
 
