@@ -72,3 +72,108 @@
   max-width: 800px !important
 .img900
   max-width: 900px !important
+
+//color//
+.colr
+  color: #EA3584
+  &_1
+    color: #6826CC
+
+//FONDOS//
+.bgr
+  background-color: #FFE0F0
+  &_1
+    background: rgb(255,224,240);
+    background: linear-gradient(90deg, rgba(255,224,240,1) 0%, rgba(255,255,255,1) 100%);
+  &_2
+    background-color: #E3E3F9
+  &_3
+    background-color: #FFE0F0
+  &_4
+    background-color: #FFFAE7
+  &_5
+    background-color: #ECEDF4
+  &_6
+    border-left: 5px solid #EA3584
+  &_7
+    border-right: 5px solid #EA3584
+  &_8
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 20px
+    .slyder-a__btn--atrs
+      background-color: #6826CC
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__btn--sigt
+      background-color: #6826CC
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: #EA3584 !important
+      border-color: #EA3584 !important
+    .slyder-a__bullets__item
+      background-color: #B38ACC
+      border-color: #B38ACC
+      margin: 0 8px
+
+
+
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -60px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 6rem)
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/tema1/fondo1.svg")
+
+  
+
+//POSICION EN PANTALLA//
+.pst
+  padding-top: 130px
+  img 
+    width: 284px;
+  .tarjeta
+    padding-top: 100px !important
+    background-color: #FFFAE7
+  &_1
+    width: 100%
+  &_2
+    padding-top: 130px
+    img 
+      width: 284px;
+    .tarjeta
+      padding-top: 124px !important
+      background-color: #FFFAE7
+  &_3
+    .bloque-texto-g__img
+      left: 50%
+    .bloque-texto-g__texto
+      left: -40%
+    @media screen and (max-width: 420px)
+      .bloque-texto-g__img
+        left: 0
+      .bloque-texto-g__texto
+        left: 0
+    @media screen and (max-width: 992px)
+      .bloque-texto-g__img
+        left: 0
+      .bloque-texto-g__texto
+        left: 0
+      
+
+.horizontal-scroll
+  align-items: stretch
+
+  
