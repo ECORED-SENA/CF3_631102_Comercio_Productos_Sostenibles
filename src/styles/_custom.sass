@@ -211,6 +211,18 @@
       background-color: #EA3584
       transform: scale(1.1)
       transform: translateY(-30px)
+  &_21
+    background: rgb(255,250,231);
+    background: linear-gradient(0deg, rgba(255,250,231,1) 0%, rgba(255,255,255,1) 100%);
+  &_22
+    background-color: #FFE0F0
+    &::before
+      background-color: #EA3584
+  &_23
+    background: rgb(255,250,231);
+    background: linear-gradient(90deg, rgba(255,250,231,1) 0%, rgba(255,255,255,1) 100%);
+  
+  
 
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -305,7 +317,7 @@
     content: ''
     position: absolute
     margin: 0 -3rem
-    top: -60px
+    top: -46px
     left: 0
     width: calc( 100% + 6rem)
     height: 90%
@@ -348,6 +360,40 @@
     background-size: cover
     @media screen and (max-width: 420px)
       background-image: url("../assets/curso/tema3/fondo4.svg")
+.bg_grad-08
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema3/fondo5.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/tema3/fondo5.svg")
+.bg_grad-09
+  position: relative
+  p, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema3/fondo6.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/tema3/fondo6.svg")
 
 //POSICION EN PANTALLA//
 .pst
@@ -386,6 +432,30 @@
     margin-top: 24px
   &_5
     font-size: 1.125em
+  &_6
+    transition: transform .3s ease-in-out
+    &:hover
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_7
+    top: 30px !important
+  &_8
+    .img-infografica__card
+      width: 372px
+      top: -167px
+  &_9
+    position: absolute
+    top: 5%
+    left: 0
+  &_10
+    position: absolute
+    bottom: 5%
+    left: 95%
+    @media screen and (max-width:992px)
+      left: 92%
+      
+  
+    
       
 //ETIQUETAS REEMPLAZADAS//
 .etiqueta
@@ -412,7 +482,11 @@
   i
     background-color: #6826CC
     padding: 0.5rem
-.img-infografica-b__item__tooltip 
-  
+.img-infografica__item
+  width: 4.5%
+.slyder__btn
+  background-color: #6826CC
+  i
+    color: white
 
   
