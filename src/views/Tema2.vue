@@ -58,7 +58,7 @@
     separador
 
     .bg_grad-01
-      #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         .h2 2.1  Discapacidad 
       
       .bg_grad-03.ps-0.ps-md-4
@@ -168,7 +168,7 @@
               p.mb-0 Algunos protocolos básicos de atención y servicio se orientan a una manera respetuosa de propiciar el contacto físico para apoyar la realización de una actividad específica, ser cuidadoso con el lenguaje no verbal, por ejemplo, con la expresión del rostro y gestos, ya que estos favorecen la comprensión del mensaje en un proceso comunicativo y hablarle a la persona con discapacidad cognitiva, usando frases que indiquen lo que se espera que él haga y que luego parafrasea.
       separador
 
-      #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         .h2 2.2 Normativas
     
     p.mb-5 A nivel nacional (Colombia) existen varios lineamientos, leyes, decretos y marcos de buenas prácticas asociados a la inclusión y a la discapacidad.  A continuación se exponen algunos de ellos:
