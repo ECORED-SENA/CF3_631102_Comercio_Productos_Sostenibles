@@ -16,7 +16,7 @@
         .bgr.px-5.py-2
           p.mb-0.text-center Los objetivos de la exhibición son:
     
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
       .tarjeta-avatar.pst
         img(src='@/assets/curso/tema1/t1-1.png' alt='AvatarTop')
         .tarjeta
@@ -60,7 +60,7 @@
     
     p.mb-5 De acuerdo con la disposición del establecimiento, el administrador que es el responsable del lugar y de la exhibición tiene como objetivo organizarlo según:
 
-    .row.mb-5.d-flex.align-items-center.bgr_1.p-4
+    .row.mb-5.d-flex.align-items-center.bgr_1.p-4(data-aos="zoom-out")
       .col-12.col-md-3.mb-3.mb-md-0
         figure
           img(src='@/assets/curso/tema1/t1-9.svg', alt='dibujo de mujer mercando')
@@ -90,7 +90,7 @@
     
     p.mb-5 Una exhibición debe tener un grupo de características que avalen su funcionalidad y logren que se cumplan los objetivos del establecimiento, por esta razón, la exhibición debe ser visible y atractiva a los ojos del cliente y, además, debe ser sencilla, visible, atractiva, accesible, comunicativa, rellenable, segura, alegre, limpia, estable y con precio visible.
 
-    .row.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5.mb-5
           .bloque-texto-g__img(
@@ -103,7 +103,7 @@
         | son los espacios donde se ubican los productos ya sea horizontal o verticalmente, esto facilita una mejor visión de las promociones que realizan los diferentes formatos comerciales, para la exhibición se debe manejar la creatividad de quien ejecuta la función, las zonas se definen como zona caliente y zona fría. Son zonas imaginarias que dividen el espacio en dos partes iguales:  
 
         .row.mb-5.mt-5
-          .col-sm-6.col-xl-6.mb-4.mb-xl-0
+          .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="fade-right")
             .tarjeta-slide.arriba.bgr_2(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
@@ -111,7 +111,7 @@
                   h4.colr_1 Zona caliente
                   p.mb-0 Área de circulación de forma natural por parte del cliente, su técnica consiste en ubicar productos nuevos o de menor rotación. 
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.svg')})`}")
-          .col-sm-6.col-xl-6.mb-4.mb-xl-0
+          .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="fade-left")
             .tarjeta-slide.arriba.bgr_3(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
@@ -124,25 +124,25 @@
         | se debe tener en cuenta los productos que se exhiben dependiendo de la puerta de acceso al establecimiento, la persona encargada de la exhibición debe recordar estos aspectos:
       
     .row.mb-5
-      .col-md-6.col-lg-3.bgr_4.p-5
+      .col-md-6.col-lg-3.bgr_4.p-5(data-aos="fade-up")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema1/t1-13.svg' alt='AvatarTop')
         span.text-bold Puerta a la derecha: 
         | cuando el lugar de acceso está a la derecha, las zonas resultan de una línea diagonal que nace en el ángulo extremo izquierdo del punto de acceso y va hasta el ángulo extremo derecho más profundo de la superficie del establecimiento.
-      .col-md-6.col-lg-3.bgr.p-5
+      .col-md-6.col-lg-3.bgr.p-5(data-aos="fade-down")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema1/t1-14.svg' alt='AvatarTop')
         span.text-bold Puerta a la izquierda: 
         | lo contrario a la puerta anterior. La línea diagonal que nace en el ángulo extremo derecho del punto de acceso y va hasta el ángulo extremo izquierdo más profundo de la superficie del establecimiento.
-      .col-md-6.col-lg-3.bgr_5.p-5
+      .col-md-6.col-lg-3.bgr_5.p-5(data-aos="fade-up")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema1/t1-15.svg' alt='AvatarTop')
         span.text-bold Puerta en el centro: 
         | se define de acuerdo con la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local. 
-      .col-md-6.col-lg-3.bgr_2.p-5
+      .col-md-6.col-lg-3.bgr_2.p-5(data-aos="fade-down")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema1/t1-16.svg' alt='AvatarTop')
@@ -171,10 +171,10 @@
     p.mb-5 La demostración de productos en el punto de venta se convierte en una estrategia importante para la venta, al realizar esta acción se debe elegir el lugar del evento, los días en los que se hará la demostración, la creatividad con la que se haga la demostración, con el fin de que se convierta en una experiencia satisfactoria para el cliente. 
 
     .row.d-flex.justify-content-center.bgr_4.p-4.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-17.png', alt='trabajadora en una tienda de ropa mostrando estadisticas')
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         p El público objeto de la demostración debe ser tenido en cuenta, no es lo mismo hacer demostraciones para niños que para adultos, para mujeres o para hombres, puesto que cada público objetivo (target) tiene diferentes necesidades y expectativas.
         p Las demostraciones tienen las siguientes ventajas:
 
@@ -196,7 +196,7 @@
 
     p.mb-5 A la hora de hacer un evento de demostración de productos se debe tener en cuenta lo siguiente:
 
-    .row.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10
         figure
           img(src='@/assets/curso/tema1/t1-18.svg', alt='trabajadora en una tienda de ropa mostrando estadisticas')
@@ -219,7 +219,7 @@
     
       p.mb-5 Consisten en recompensar a los clientes por su comportamiento de compra, se trata del volumen o fidelidad que el cliente tenga en su relación comercial con la empresa, estas condiciones se aplican después y difícilmente son perceptibles antes de la compra, es decir, el cliente recibe los beneficios posteriormente.
 
-      .row.mb-5.d-flex.justify-content-center
+      .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
         .col-12.col-md-10
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.pst_3
             .bloque-texto-g__img(
@@ -231,16 +231,16 @@
       p.mb-5 Estas políticas consiguen los objetivos marcados, consisten en formalizar las técnicas, tácticas y decisiones tomadas para la comercialización de productos y servicios de la organización, permitiendo a la organización defenderse en circunstancias de crisis del sector económico, donde debe protegerse la empresa y los accionistas, además, sirven de respaldo a los trabajadores a la hora de enfrentar situaciones que requieran de guía y así mejorar los procesos de la empresa y ser más efectivos.
 
     .row.mb-5
-      .col-12.col-md-5.mb-3.mb-md-0
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-21.svg', alt='dos personas dandose la mano')
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         p Las empresas deben tomar muchas decisiones, por lo que se definen las condiciones comerciales con el ánimo de que el equipo de trabajo pueda saber cómo actuar ante diferentes situaciones, ya sea con proveedores o con las negociaciones que se hacen con los clientes.
         p.mb-0 Es por esto que se crean pautas y limitaciones para atender a posibles clientes y demás circunstancias por acciones que se puedan presentar, porque más allá de ser el gerente, administrador o supervisor, es el equipo de trabajo quien debe tener los conocimientos para resolver problemas, y así es como se ve el crecimiento de la empresa.
     
     p.mb-5 La política comercial de una empresa debe basarse en la calidad, el cumplimiento, el  acompañamiento y las garantías, entre otras muchas variables que la empresa debe tener en cuenta en el momento de crear sus políticas comerciales, entre estas debe considerar: 
 
-    .row.d-flex.justify-content-center
+    .row.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10
         SlyderA.bgr_8.p-4(tipo="b").mb-4
           .row.d-flex.justify-content-evenly

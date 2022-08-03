@@ -82,7 +82,7 @@
                 i.fas.fa-paper-plane.colr_3
                 | El número de personas con discapacidad está creciendo como resultado del envejecimiento de la población y el incremento global de los problemas crónicos de salud.
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
           img(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')

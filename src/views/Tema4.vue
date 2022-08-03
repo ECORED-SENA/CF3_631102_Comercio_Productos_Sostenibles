@@ -9,7 +9,7 @@
     
     p.mb-5 El reporte en venta es el informe que recopila las actividades comerciales desarrolladas en una empresa, el objetivo del informe es evaluar el desempeño del departamento comercial, las estrategias de ventas y el trabajo de los vendedores, este informe permite identificar las fallas y oportunidades de mejora de los procesos.
 
-    .row.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10.mb-5  
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -22,7 +22,7 @@
 
     .row.mb-5.d-flex.justify-content-center
       .col-12.col-md-10
-        .row.d-flex.justify-content-center.bgr_4.p-4.mb-3
+        .row.d-flex.justify-content-center.bgr_4.p-4.mb-3(data-aos="zoom-out")
           .col-12.col-md-7
             p El reporte debe contar con datos por región, por segmento del tipo de producto, datos que midan la actividad de ventas y estadísticas de satisfacción del cliente, datos para analizar la duración de llamadas, los datos de las visitas a clientes, en fin, todos los datos necesarios para presentar un buen reporte.
             p.mb-0 La importancia de los datos comerciales en el reporte de ventas mensual radica en obtenerlos del software de gestión comercial, con este tipo de herramientas se logra obtener la información referente al número de visitas ejecutadas, número de llamadas realizadas a prospectos y clientes, transacciones realizadas, valores y duración promedio del período de ventas.
@@ -32,10 +32,10 @@
         
         p El mayor inconveniente que se puede encontrar es que se deben ingresar los datos manualmente, no se puede confiar en que el equipo actualice el sistema de forma precisa, por esto, para tener éxito en la estrategia de ventas se recomiendan estos tres tipos de informes:
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
-          img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
       .col-10.col-md-11.bgr_11.d-flex.align-items-center
         h3.mb-0 Reportes de ventas diarias
     
@@ -44,10 +44,10 @@
       p.mb-5 Para el gerente de la empresa es importante conocer el número de llamadas y correos electrónicos enviados por el equipo de ventas cada día, esta es la manera de monitorear su desempeño e identificar cualquier anomalía para solucionar de raíz y mantener un buen nivel de productividad de su equipo de ventas, este reporte le asegura al gerente que su equipo está realizando las actividades diarias planeadas.
 
       .row.mb-5.justify-content-center
-        .col-12.col-md-4
+        .col-12.col-md-4(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema4/t4-3.png', alt='Texto que describa la imagen')
-        .col-12.col-md-6
+        .col-12.col-md-6(data-aos="fade-left")
           .tarjeta.bgr_18.p-4.mb-3
             p Indicadores que se pueden lograr en un reporte de ventas diario:
             ul.lista-ul--color.mb-0
@@ -66,10 +66,10 @@
           
           p Cada uno de los indicadores está enfocado en una etapa del ciclo de vida de la venta, esto garantiza que los vendedores se enfoquen en sostener un volumen de actividades productivas en cada etapa del proceso.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
-          img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
       .col-10.col-md-11.bgr_11.d-flex.align-items-center
         h3.mb-0 Análisis de ventas semanal
     
@@ -80,7 +80,7 @@
     .bg_grad-11
       .row.justify-content-center
         .col-12.col-md-10
-          ImagenInfografica.color-acento-botones.mb-5
+          ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
@@ -93,10 +93,10 @@
             .tarjeta.bgr_4.p-3(x="77%" y="82%" numero="04")
               p También fomenta la cultura de la responsabilidad y transparencia del equipo, ya que se mantiene al día la información, esta reunión es la manera de motivarlos a mantener sus quejas y reclamos actualizados y, recibir el crédito por su trabajo.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
-          img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
       .col-10.col-md-11.bgr_11.d-flex.align-items-center
         h3.mb-0 Reporte de ventas mensuales
     

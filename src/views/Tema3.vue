@@ -31,7 +31,7 @@
 
     p.mb-5 De acuerdo con lo anterior, a continuación se describen cada una de las fases que conforman el ciclo de venta y que de acuerdo con la estructura deben darse secuencialmente: preventa (primer momento), venta (segundo momento) y postventa (tercer momento).
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
@@ -88,7 +88,7 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/7M72zaMrfSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
@@ -366,7 +366,7 @@
     p Para ser un vendedor exitoso se requiere tener poder de convencimiento, puesto que actualmente los vendedores se han visto en la obligación de evolucionar en sus tácticas de ventas, esto se debe a que la tecnología ha cambiado la forma de vender; pero a pesar de todo las habilidades siguen presentes y deben reforzarse constantemente.
     p.mb-5 Existe una serie de características que destacan a un vendedor a continuación se relacionan las siguientes:
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
@@ -519,7 +519,7 @@
     .bg_grad-08
       .row.mb-5.justify-content-center
         .col-12.col-md-6
-          ImagenInfografica.color-acento-botones.mb-5.pst_8
+          ImagenInfografica.color-acento-botones.mb-5.pst_8(data-aos="zoom-out")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema3/t3-40.svg', alt='Texto que describa la imagen')
@@ -532,14 +532,14 @@
 
     p.mb-5 Asociado al manejo de objeciones es claro mencionar que, si bien existe la teoría, las clasificaciones y los ejemplos, hay dos factores que influyen en la gestión de las mismas: i. la personalidad del vendedor, dado que la esencia de la persona influye mucho en el trato con las demás personas, y ii. la experiencia, cada vez que se tiene mayor contacto con los clientes se van adquiriendo más destrezas para interactuar y manejar situaciones que a simple vista incluso pueden ser inmanejables.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
       .col-10.col-md-11.bgr_11.d-flex.align-items-center
         h3.mb-0 Resolución de objeciones
 
-    .row.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10  
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -548,7 +548,7 @@
           .bloque-texto-g__texto.p-4.p-lg-5
             p.mb-0 Navarro (2012) en su libro Técnicas de ventas propone un esquema interesante para el manejo de objeciones, comenzando por la escucha como el principio básico de la comunicación, luego a partir de la asertividad anticiparse a posibles alternativas de respuesta o solución, posteriormente a través de un ejercicio de empatía comprender la situación y finalmente si el cliente aún tiene inquietudes y refuta lo expuesto, exponer con argumentos claros y respetuosos la alternativa de solución. Véalo con más detalle a continuación:
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-2.col-md-1.bgr_12 
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
@@ -575,7 +575,7 @@
             figure.d-flex.justify-content-center
               img.img180(src='@/assets/curso/tema3/t3-45.svg' alt='AvatarTop')
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10
         .row.mb-5.bgr_10.p-3
           .col-12.col-md-2
@@ -683,7 +683,7 @@
     
     p.mb-5 Puede definirse como una ayuda para que los clientes tomen las decisiones que son favorables para ellos, los vendedores ayudan profesionalmente todo el tiempo a que la gente compre, la realidad es que se genera una relación ganar-ganar que dura el tiempo que el vendedor decida.
 
-    .row.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10.mb-5  
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -755,10 +755,10 @@
       p.mb-5 Son los acuerdos que se hacen con los clientes referentes a la forma de entrega de los productos o servicios, estas condiciones deben incluir lugar, fecha, hora de entrega y las garantías que se le ofrecen por daños o mal funcionamiento del producto o servicio. 
 
       .row.mb-3.justify-content-center
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.img300(src='@/assets/curso/tema3/t3-59.svg', alt='mujer tomando nota de unos productos')
-        .col-12.col-md-7
+        .col-12.col-md-7(data-aos="fade-left")
           p Estas tienen un punto de transmisión, este se refiere al derecho de propiedad legal, en este punto el riesgo pasa del vendedor al comprador.
           .bgr_18.p-4.mb-3
             p.mb-0 La garantía funciona desde el mismo momento en que se hace el contrato y radica en la posibilidad de obligar al vendedor a que haga la entrega del bien o servicio, lo cual está contemplado en el “Estatuto del Consumidor (Ley 1480/11), relacionada con la aptitud para satisfacer las necesidades para las cuales ha sido producido un bien”.
