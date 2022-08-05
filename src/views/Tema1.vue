@@ -104,21 +104,21 @@
 
         .row.mb-5.mt-5
           .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="fade-right")
-            .tarjeta-slide.arriba.bgr_2(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-                  h4.colr_1 Zona caliente
-                  p.mb-0 Área de circulación de forma natural por parte del cliente, su técnica consiste en ubicar productos nuevos o de menor rotación. 
-                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.svg')})`}")
-          .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="fade-left")
             .tarjeta-slide.arriba.bgr_3(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
                 .tarjeta-slide__contenido.p-4.p-xl-5.text-center
-                  h4.colr Zona fría
-                  p.mb-0 Área de circulación por donde el cliente transita muy poco, su técnica consiste en ubicar productos de mayor rotación y promociones de venta, con el objetivo de hacer transitar a los clientes por todo el lugar. 
+                  h4.colr Zona caliente
+                  p.mb-0 Área de circulación de forma natural por parte del cliente, su técnica consiste en ubicar productos nuevos o de menor rotación. 
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.svg')})`}")
+          .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="fade-left")
+            .tarjeta-slide.arriba.bgr_2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5.text-center
+                  h4.colr_1 Zona fría
+                  p.mb-0 Área de circulación por donde el cliente transita muy poco, su técnica consiste en ubicar productos de mayor rotación y promociones de venta, con el objetivo de hacer transitar a los clientes por todo el lugar. 
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.svg')})`}")
         
         span.colr.text-bold En las zonas de acceso 
         | se debe tener en cuenta los productos que se exhiben dependiendo de la puerta de acceso al establecimiento, la persona encargada de la exhibición debe recordar estos aspectos:
@@ -146,13 +146,13 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema1/t1-16.svg' alt='AvatarTop')
-        span.text-bold Dos puertas:
+        span.text-bold Dos puertas: 
         | por teoría, prácticamente carece de zonas frías ya que la circulación fluye de acuerdo con el ingreso de las dos puertas. Por esto, es vital encontrar la localización de las zonas, con el fin de ubicar las secciones de forma estratégica.
 
     span.colr.text-bold Planograma o planimetría: 
     | es una herramienta necesaria para la gestión eficaz del espacio donde se exhiben los productos en los establecimientos minoristas, teniendo en cuenta que en la actualidad existe un mercado más complejo y competitivo, en el que ha aumentado el tamaño de las tiendas y el número de categorías de productos, esta herramienta tiene como objetivo mejorar la presentación de los artículos y aumentar las ventas. 
 
-    p.mt-3.mb-5 Es un instrumento del merchandising (promoción comercial) en el diseño o croquis (dibujo) a través de un software que describe detalladamente el lugar y diámetro en el que se van a ubicar los productos, el planograma especifica la cantidad de productos y el número de caras con las que van a presentar la oferta, estas son la altura, profundidad y distancia que deben ocupar las distintas referencias. Se entiende por caras o “facing” el número de caras de un mismo producto que se necesitan para que el cliente las visualice.
+    p.mt-3.mb-5 Es un instrumento del <em>merchandising</em> (promoción comercial) en el diseño o croquis (dibujo) a través de un software que describe detalladamente el lugar y diámetro en el que se van a ubicar los productos, el planograma especifica la cantidad de productos y el número de caras con las que van a presentar la oferta, estas son la altura, profundidad y distancia que deben ocupar las distintas referencias. Se entiende por caras o <em>“facing”</em> el número de caras de un mismo producto que se necesitan para que el cliente las visualice.
 
     .row.d-flex.justify-content-center.mb-5
       .col-12.col-md-6
@@ -175,7 +175,7 @@
         figure
           img(src='@/assets/curso/tema1/t1-17.png', alt='trabajadora en una tienda de ropa mostrando estadisticas')
       .col-12.col-md-6(data-aos="fade-left")
-        p El público objeto de la demostración debe ser tenido en cuenta, no es lo mismo hacer demostraciones para niños que para adultos, para mujeres o para hombres, puesto que cada público objetivo (target) tiene diferentes necesidades y expectativas.
+        p El público objeto de la demostración debe ser tenido en cuenta, no es lo mismo hacer demostraciones para niños que para adultos, para mujeres o para hombres, puesto que cada público objetivo <em>(target)</em> tiene diferentes necesidades y expectativas.
         p Las demostraciones tienen las siguientes ventajas:
 
         ul.lista-ul--color.mb-0
@@ -279,7 +279,7 @@
             .col-md-6.mb-4.mb-md-0.d-flex.align-items-center
               div
                 p.text-bold Confidencialidad
-                p.mb-0 las empresas deben tener bases de datos confiables para que los clientes se sientan seguros a la hora de tener relaciones comerciales con ellas. 
+                p.mb-0 Las empresas deben tener bases de datos confiables para que los clientes se sientan seguros a la hora de tener relaciones comerciales con ellas. 
             .col-md-4
               figure
                 img(src='@/assets/curso/tema1/t1-26.png', alt='mujer tomando nota de unos productos')

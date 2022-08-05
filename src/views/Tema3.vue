@@ -366,7 +366,7 @@
     p Para ser un vendedor exitoso se requiere tener poder de convencimiento, puesto que actualmente los vendedores se han visto en la obligación de evolucionar en sus tácticas de ventas, esto se debe a que la tecnología ha cambiado la forma de vender; pero a pesar de todo las habilidades siguen presentes y deben reforzarse constantemente.
     p.mb-5 Existe una serie de características que destacan a un vendedor a continuación se relacionan las siguientes:
 
-    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="zoom-in")
+    ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
@@ -663,7 +663,7 @@
               .col-md-6.mb-4.mb-md-0.d-flex.align-items-center
                 div
                   p.text-bold No asuma que ya está listo
-                  p.mb-0 Después de hacer la presentación del producto o servicio al cliente potencial pídale que evalúe su trabajo, infórmele que para es importante saber si hizo correctamente la presentación y que si tiene alguna sugerencia para hacerle sobre su desempeño, pregunte también si tiene alguna objeción para aclararla, es ahí cuando se da cuenta que está listo para comprar y pedir el cierre de la venta.
+                  p.mb-0 Después de hacer la presentación del producto o servicio al cliente potencial pídale que evalúe su trabajo, infórmele que es importante saber si hizo correctamente la presentación y que si tiene alguna sugerencia para hacerle sobre su desempeño, pregunte también si tiene alguna objeción para aclararla, es ahí cuando se da cuenta que está listo para comprar y pedir el cierre de la venta.
               .col-md-4.d-flex.align-items-center
                 figure
                   img(src='@/assets/curso/tema3/t3-53.png', alt='mujer tomando nota de unos productos')
