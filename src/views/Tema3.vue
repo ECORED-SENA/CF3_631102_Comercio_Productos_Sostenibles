@@ -3,17 +3,17 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_2
         span 3
       h1 Venta
 
-    p.mb-5 <b>La venta en sí misma es una transacción entre dos agentes económicos, es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra denominada cliente potencial</b>, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: i. la participación de dos roles (comprador y vendedor), ii. un producto y iii. un valor de intercambio (precio); sin embargo, para realizarla de manera adecuada e influenciar el éxito de la misma, las ventas deben verse de forma integral. Por ello, se han definido tres momentos secuenciales: preventa, venta y postventa, en los cuales se desarrolla el ciclo comercial:
+    p.mb-5(data-aos="flip-down") <b>La venta en sí misma es una transacción entre dos agentes económicos, es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra denominada cliente potencial</b>, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: i. la participación de dos roles (comprador y vendedor), ii. un producto y iii. un valor de intercambio (precio); sin embargo, para realizarla de manera adecuada e influenciar el éxito de la misma, las ventas deben verse de forma integral. Por ello, se han definido tres momentos secuenciales: preventa, venta y postventa, en los cuales se desarrolla el ciclo comercial:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-7.d-flex.align-items-center
+      .col-12.col-md-7.d-flex.align-items-center(data-aos="fade-left")
         .tarjeta.bgr_17.p-2.p-md-4.mb-5
           SlyderA(tipo="b")
             .row
@@ -80,7 +80,7 @@
                   td.bgr_19.text-bold 
                     p.mb-0 No aplican para todo tipo de clientes, dada la brecha digital (clientes que no tienen el conocimiento o la confianza para comprar en medios digitales)
 
-      p.text-bold.colr Tipos de ventas según el cliente al cual se dirigen los productos 
+      h4.colr Tipos de ventas según el cliente al cual se dirigen los productos 
       p Este concepto de tipos de ventas según el tipo de cliente comenzó con fuerza en el comercio electrónico; sin embargo, actualmente es utilizado también en el contexto offline. Las ventas <em>Business to Business</em> (conocidas como B2B) son aquellas que realiza una empresa a otra empresa, las ventas <em>Business to Consumer</em> (conocidas como B2C) son las que realiza una empresa al consumidor final, las ventas <em>Business to Government</em> (B2G) son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas. 
       p.mb-5 A modo de ejemplo, se tienen las siguiente situaciones, una empresa de telecomunicaciones vende sus productos a los clientes hogares y a las empresas, en este caso, se indica que dicha compañía vende bajo tipos de ventas B2C y B2B; en un segundo caso, una empresa importadora vende al por mayor equipos de cómputo a distribuidores, por tanto, esta empresa realiza ventas exclusivamente B2B; en un tercer caso, una empresa constructora está dedicada a la construcción de vías, por lo que su cliente es el Estado, en este sentido realiza ventas B2G. 
 
@@ -108,21 +108,21 @@
       .row.mb-5.justify-content-center(data-aos="zoom-in-up")
         .col-12.col-md-10
           .row
-            hr.modif_11
+            hr.pst_4  
             .col-12.col-lg-1.mb-3.mb-lg-0.align-items-center
               figure.d-flex.justify-content-center
                 img.img90(src='@/assets/curso/tema3/t3-5.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
               p.mb-0 En las características se describe el bien o servicio que se está ofreciendo, aquí se da respuesta al qué.
           .row
-            hr.modif_11
+            hr.pst_4  
             .col-12.col-lg-1.mb-3.mb-lg-0.align-items-center
               figure.d-flex.justify-content-center
                 img.img90(src='@/assets/curso/tema3/t3-6.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
               p.mb-0 En las ventajas, consiste en narrar (o demostrar si es posible), siempre desde preceptos éticos, porque el producto que se está ofreciendo es mejor que otras opciones que existen en el mercado, se responde al “por qué es mejor”.
           .row
-            hr.modif_11
+            hr.pst_4  
             .col-12.col-lg-1.mb-3.mb-lg-0.align-items-center
               figure.d-flex.justify-content-center
                 img.img90(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
@@ -166,7 +166,7 @@
         .col-12.col-md-10
           .row
             hr.pst_4
-            .col-12.col-lg-1.mb-3.mb-lg-0.align-items-center
+            .col-12.col-lg-1.mb-3.mb-lg-0
               figure.d-flex.justify-content-center
                 img.img90(src='@/assets/curso/tema3/t3-10.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
@@ -197,7 +197,7 @@
       .col-12.col-md-10
         p Ahora, con un ejemplo se analizará cómo el vendedor debe realizar la venta de un seguro de vida, aplicando el modelo AIDA se plantea el siguiente discurso de ventas:
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-up")
       .col-12.col-md-8
         .tarjeta.bgr_17.p-2.p-md-4.mb-5  
           SlyderA(tipo="b")
@@ -236,7 +236,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema3/t3-15.png')})`}"
             )
             .bloque-texto-g__texto.p-4.p-lg-4
-              p.mb-0.text-bold Situación, problema, implicación, necesidad
+              p.mb-0.text-bold.colr Situación, problema, implicación, necesidad
               br
               p.mb-0 El modelo más conocido como SPIN (o de <em>situation, problem, implication y need pay off</em> por sus siglas en inglés) es una táctica de ventas interesante porque se basa en la resolución de problemas al cliente, y esto es bastante lógico si se parte del concepto que las necesidades están creadas y que justamente el rol del mercadeo y las ventas es satisfacerlas. Nuevamente, las preguntas aparecen como la clave para la buena aplicación del modelo, conozca a continuación la descripción de cada una de las etapas.
 
@@ -275,7 +275,7 @@
         .col-12.col-md-10
           p Para dar más claridad al tema se analizará un caso hipotético y se aplicará el modelo SPIN. Este ejercicio se orienta en el caso de un vendedor, cuyo servicio a ofrecer es un servicio de Internet en fibra óptica para conectar todas las sedes de la empresa.
       
-      .row.mb-5.justify-content-center
+      .row.mb-5.justify-content-center(data-aos="fade-up")
         .col-12.col-md-8
           .tarjeta.bgr_17.p-2.p-md-4.mb-5  
             SlyderA(tipo="b")
@@ -299,7 +299,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema3/t3-20.png')})`}"
             )
             .bloque-texto-g__texto.p-4.p-lg-4
-              p.mb-0.text-bold Simple, invaluable, alineado con sus intereses, de prioridad 
+              p.mb-0.text-bold.colr Simple, invaluable, alineado con sus intereses, de prioridad 
               p.mb-0 la técnica de ventas más conocida como SNAP (en inglés <em>simple, invaluable, align and priority</em>) es un modelo que se enfoca en la efectividad, ya que se centra en “ponerse en la camiseta del cliente” y está dirigido principalmente a las personas que tienen la facultad de decidir si hacen la compra, observe a continuación los elementos importantes: 
     
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
@@ -337,7 +337,7 @@
       .col-12.col-md-10
         p A partir del siguiente ejemplo quedará más clara la comprensión del modelo SNAP, un vendedor vende tarjetas de crédito y desea aplicar la técnica.
     
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-12.col-md-8
         .tarjeta.bgr_17.p-2.p-md-4.mb-5  
           SlyderA(tipo="b")
@@ -466,7 +466,7 @@
       .col-12.col-md-7
         p Para profundizar mejor en este concepto se invita a consultar el siguiente recurso de aprendizaje:
     
-    .row.d-flex.justify-content-center
+    .row.d-flex.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
         .tarjeta.bgr_10.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -481,6 +481,8 @@
                   a.boton.color-acento-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44231?page=1" target="_blank")
                     span Enlace web
                     i.fas.fa-link
+    
+    separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 3.2 Objeciones
@@ -559,19 +561,21 @@
       .col-12.col-md-10
         .row.justify-content-center.bgr_21.p-4
           .col-12.col-md-2.mb-3.mb-md-0
-            p.mb-5 <b>Escuchar:</b> no emitir juicios apresurados y prestar completa atención a lo que dice.
+            .bgr_24.px-2
+              p.m-0 <b>Escuchar:</b> no emitir juicios apresurados y prestar completa atención a lo que dice.
             figure.d-flex.justify-content-center
               img.img180(src='@/assets/curso/tema3/t3-42.svg' alt='AvatarTop')
           .col-12.col-md-2.mb-3.mb-md-0
-            p.mb-5 <b>Anticiparse:</b> se puede ganar tiempo, si se anticipan las posibles objeciones.
+            p.pst_11.m-0 <b>Anticiparse:</b> se puede ganar tiempo, si se anticipan las posibles objeciones.
             figure.d-flex.justify-content-center
               img.img180(src='@/assets/curso/tema3/t3-43.svg' alt='AvatarTop')
           .col-12.col-md-2.mb-3.mb-md-0
-            p.mb-5 <b>Comprender:</b> si el cliente percibe empatía por parte del vendedor, sentirá confianza para continuar el proceso de negociación.
+            .bgr_25.px-2
+              p.m-0 <b>Comprender:</b> si el cliente percibe empatía por parte del vendedor, sentirá confianza para continuar el proceso de negociación.
             figure.d-flex.justify-content-center
               img.img180(src='@/assets/curso/tema3/t3-44.svg' alt='AvatarTop')
           .col-12.col-md-2
-            p.mb-5 <b>Refutar:</b> respeto, paciencia, inteligencia y argumentos son la clave para responder objeciones.
+            p.pst_12.m-0 <b>Refutar:</b> respeto, paciencia, inteligencia y argumentos son la clave para responder objeciones.
             figure.d-flex.justify-content-center
               img.img180(src='@/assets/curso/tema3/t3-45.svg' alt='AvatarTop')
 
@@ -633,7 +637,7 @@
         .col-12.col-md-10
           p A continuación se presentan los consejos para tener buenos argumentos durante una llamada de ventas:
           
-          SlyderA.bgr_8.p-4(tipo="b").mb-4
+          SlyderA.bgr_8.p-4(tipo="b").mb-4(data-aos="flip-up")
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-0.d-flex.align-items-center
                 div
@@ -695,41 +699,41 @@
         p.mt-5 Los vendedores deben escuchar dos veces más de lo que hablan, es importante no apresurar el cierre de la venta, existen vendedores que presionan al cliente y lo hacen sin darse cuenta, por ejemplo:
 
         .row.bgr_23.p-4
-          .col-12.col-md-4
+          .col-12.col-md-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema3/t3-55.svg', alt='Cliente en llamada con asesora comercial')
-          .col-12.col-md-auto.d-flex.align-items-center
+          .col-12.col-md-auto.d-flex.align-items-center(data-aos="fade-left")
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Este es el mejor producto del mercado.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Definitivamente esto es lo que necesita.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Aproveche y llévelo ahora.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Más vale que se apresure, el producto se va a acabar.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Los precios van a aumentar.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Va a perder esta oportunidad.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Hay otras personas interesadas.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Esta es la mejor compra que va a hacer.
 
     p Cuando el vendedor hace esto, el prospecto siente que lo están presionando, pierde el interés y la confianza, lo más probable es que pierda la venta. 
     p Las estrategias que se utilizan para el cierre de la venta tienen como objetivo ayudar al cliente a tomar una decisión, esta etapa suele generar tensión para el cliente y para el vendedor, para el cliente porque puede estar errando en su compra y para el vendedor porque puede perder la venta después de haber hacho un buen trabajo. 
     p.mb-5 Los vendedores en el cierre de la venta deben actuar con actitud positiva, esto demostrará que se ha llegado a un acuerdo con el cliente, se debe fijar la cantidad del producto, el color, la fecha, el lugar, etc.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-12.col-md-10
         .row.mb-5.bgr.justify-content-center.position-relative
           .col-12.col-md-7.d-flex.align-items-center
@@ -761,7 +765,8 @@
         .col-12.col-md-7(data-aos="fade-left")
           p Estas tienen un punto de transmisión, este se refiere al derecho de propiedad legal, en este punto el riesgo pasa del vendedor al comprador.
           .bgr_18.p-4.mb-3
-            p.mb-0 La garantía funciona desde el mismo momento en que se hace el contrato y radica en la posibilidad de obligar al vendedor a que haga la entrega del bien o servicio, lo cual está contemplado en el “Estatuto del Consumidor (Ley 1480/11), relacionada con la aptitud para satisfacer las necesidades para las cuales ha sido producido un bien”.
+            span La garantía funciona desde el mismo momento en que se hace el contrato y radica en la posibilidad de obligar al vendedor a que haga la entrega del bien o servicio, lo cual está contemplado en el 
+            span.colr.text-bold “Estatuto del Consumidor (Ley 1480/11), relacionada con la aptitud para satisfacer las necesidades para las cuales ha sido producido un bien”.
           p La calidad y satisfacción del cliente se basa en la percepción que él tenga acerca del producto o servicio adquirido.
       
       p El proceso final de la venta es la entrega de productos y mercancías de acuerdo con las condiciones establecidas durante el proceso de la compra, algunos aspectos importantes a tener en cuenta a la hora de brindar un buen servicio de entrega de productos son:

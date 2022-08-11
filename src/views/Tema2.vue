@@ -3,19 +3,19 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_2
         span 2
       h1 Inclusión
     
     .row.mb-5
-      .col-12.col-md-9.d-flex.align-items-center.bg_grad-02
+      .col-12.col-md-8.d-flex.align-items-center.bg_grad-02(data-aos="fade-right")
         div.p-4
           p La inclusión es un término mucho más amplio de lo que se piensa y que el contexto actual tiene amplio protagonismo en el contexto empresarial. Inclusión en términos generales significa la capacidad de poder derribar barreras, de que todos tengan igualdad de derechos, de dar accesibilidad y no ser excluyentes y en este sentido los vendedores no están ajenos al tema. Para mayor entendimiento, en la siguiente infografía se enuncian los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales, económicos y que permean por supuesto el entorno productivo. 
-      .col-12.col-md-3
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
     
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       .col-12.col-md-4.mb-3.mb-md-0
         figure
           img(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
@@ -25,24 +25,24 @@
             .row.p-3
               .col-md-12.px-4
                 span.mb-0.text-bold.etiqueta 01. Inclusión educativa
-                p Consiste en garantizar a los estudiantes el derecho a la educación en igualdad de condiciones bajo criterios de calidad, también es reconocer la diversidad y permitir que cualquier estudiante, independiente de sus características personales o culturales, sea acogido por la institución educativa. La Unesco (2020, p. 8) en su resumen del informe de seguimiento de la educación en el mundo define la inclusión en la educación como “velar porque cada educando se sienta valorado y respetado, y pueda disfrutar de un claro sentido de pertenencia”.
+                p.mt-3 Consiste en garantizar a los estudiantes el derecho a la educación en igualdad de condiciones bajo criterios de calidad, también es reconocer la diversidad y permitir que cualquier estudiante, independiente de sus características personales o culturales, sea acogido por la institución educativa. La Unesco (2020, p. 8) en su resumen del informe de seguimiento de la educación en el mundo define la inclusión en la educación como “velar porque cada educando se sienta valorado y respetado, y pueda disfrutar de un claro sentido de pertenencia”.
                 p.mb-0 <b>Una inclusión educativa debe propender por:</b> promover la equidad para brindar a cada cual lo que necesita, incentivar la participación de todos los estamentos de la comunidad educativa y trabajar colaborativamente para lograr metas comunes y particulares.
             .row.p-3
               .col-md-12.px-4
                 span.mb-0.text-bold.etiqueta 02. Inclusión familiar
-                p Que cada miembro se sienta parte activa de la familia, compartir las obligaciones del hogar entre todos teniendo en cuenta la edad y estado físico-emocional, valorar lo que cada uno aporta y no crear prejuicios asociados al género, son las definiciones más cercanas a lo que representa la inclusión familiar. De hecho, es interesante porque algunos estudiosos del tema han planteado que la familia es el eje central de la inclusión.
+                p.mt-3  Que cada miembro se sienta parte activa de la familia, compartir las obligaciones del hogar entre todos teniendo en cuenta la edad y estado físico-emocional, valorar lo que cada uno aporta y no crear prejuicios asociados al género, son las definiciones más cercanas a lo que representa la inclusión familiar. De hecho, es interesante porque algunos estudiosos del tema han planteado que la familia es el eje central de la inclusión.
             .row.p-3
               .col-md-12.px-4
                 span.mb-0.text-bold.etiqueta 03. Inclusión laboral
-                p Este tipo de inclusión se da desde el momento en que la empresa está realizando sus procesos de selección hasta que los empleados están trabajando en ella. El primer escenario consiste en abrir las posibilidades de contratación a todas las personas sin ningún tipo de discriminación garantizando una remuneración justa, en un segundo escenario con los empleados activos, la inclusión consiste en generar espacios que promuevan el desarrollo de los colaboradores de una organización.
+                p.mt-3  Este tipo de inclusión se da desde el momento en que la empresa está realizando sus procesos de selección hasta que los empleados están trabajando en ella. El primer escenario consiste en abrir las posibilidades de contratación a todas las personas sin ningún tipo de discriminación garantizando una remuneración justa, en un segundo escenario con los empleados activos, la inclusión consiste en generar espacios que promuevan el desarrollo de los colaboradores de una organización.
             .row.p-3
               .col-md-12.px-4
                 span.mb-0.text-bold.etiqueta 04. Inclusión empresarial
-                p Hace alusión a que las empresas dispongan de los canales y medios para que todos sus grupos de interés (propietarios, accionistas, colaboradores, proveedores, distribuidores), incluidos por supuesto los clientes que puedan acceder a la empresa de una forma amigable, transparente y sencilla. Desde esta perspectiva, incluye desde la contratación de personas en situación de discapacidad hasta contar con espacios accesibles y con canales de contacto aptos para personas con algún tipo de discapacidad.
+                p.mt-3  Hace alusión a que las empresas dispongan de los canales y medios para que todos sus grupos de interés (propietarios, accionistas, colaboradores, proveedores, distribuidores), incluidos por supuesto los clientes que puedan acceder a la empresa de una forma amigable, transparente y sencilla. Desde esta perspectiva, incluye desde la contratación de personas en situación de discapacidad hasta contar con espacios accesibles y con canales de contacto aptos para personas con algún tipo de discapacidad.
             .row.p-3
               .col-md-12.px-4
                 span.mb-0.text-bold.etiqueta 05. Inclusión social
-                p La CEPAL (2018) define la inclusión social como “el aseguramiento de que todas las personas puedan ejercer sus derechos y garantías, aprovechando sus habilidades y beneficiándose de las oportunidades que se encuentran en su entorno”. En este sentido, no basta con asociar este término solo a los derechos, ya que incluye adicionalmente la posibilidad que las personas puedan tener participación activa en diferentes escenarios.
+                p.mt-3  La CEPAL (2018) define la inclusión social como “el aseguramiento de que todas las personas puedan ejercer sus derechos y garantías, aprovechando sus habilidades y beneficiándose de las oportunidades que se encuentran en su entorno”. En este sentido, no basta con asociar este término solo a los derechos, ya que incluye adicionalmente la posibilidad que las personas puedan tener participación activa en diferentes escenarios.
     
     .row.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
@@ -50,10 +50,11 @@
           .col-12.col-md-2.mb-3.mb-md-0
             figure.d-flex.justify-content-center
               img.img100(src='@/assets/curso/tema2/t2-3.png', alt='Texto que describa la imagen')
-          .col-12.col-md-2.d-flex.align-items-center.mb-3.mb-md-0
-            h4.mb-0 Para recordar
-          .col-12.col-md-8.d-flex.align-items-center
+          .col-12.col-md-10.mb-3.mb-md-0
+            h4 Para recordar
             p.mb-0 De acuerdo con lo anterior, la inclusión comienza en el núcleo básico de interacción humana: la familia, donde se hace mención a la inclusión familiar y avanza hasta la inclusión social, entendiendo que todos los seres humanos pertenecen a un colectivo. 
+          
+            
     
     separador
 
@@ -92,7 +93,7 @@
     p.mb-5 Es relevante entender que existen diferentes tipologías de discapacidad. A continuación se detallan los tipos de discapacidad que más participación tienen dentro de la población:
 
     .bg_grad-04
-      SlyderF(columnas="col-lg-12 col-xl-12")
+      SlyderF(columnas="col-lg-12 col-xl-12")(data-aos="flip-down")
         .tarjeta.bgr_13.p-4
           .row.justify-content-center.mb-3
             .col-12.col-md-5.mb-3.mb-md-0
@@ -105,26 +106,26 @@
             .col-10
               .tarjeta.bgr_14.p-2.p-md-4.mb-5  
                 SlyderA(tipo="b")
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 Saludar a la persona en voz alta o bien tomar su mano o tocar su brazo como señal de saludo. Siempre presentarse con el nombre para que identifique quién es, si la persona ofrece su mano al saludar acepte. Si es necesario, se debe informar que hay otra o más personas presentes y realizar el mismo proceso.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 En el momento de salir de un recinto avisar a la persona cuando se retira, aunque sea por un momento y avisar nuevamente cuando se retorne al lugar.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 Preguntarle si le gustaría recibir ayuda, siempre es mejor preguntar, en vez de asumir que se requiere la ayuda. Muchas personas en situación de discapacidad visual son perfectamente capaces de desplazarse sin ayuda, si la persona indica que le gustaría ayuda, solo hacer lo que solicita y nada más.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 Al caminar ofrecerle el brazo, haciendo que toque la parte trasera del mismo, justo encima del codo, ese es un lugar cómodo para que la persona tome el brazo mientras camina. También es importante caminar lento o a paso medio y no muy rápido, cuando se está guiando a alguien se debe ir más despacio del ritmo tradicional. En caso de que la persona use un perro guía o un bastón se debe caminar al lado opuesto.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 Ayudar a la persona a usar las escaleras, comenzando por indicar si las escaleras van hacia arriba o hacia abajo y en la medida de lo posible, indicar qué tan largas o empinadas son. Si se está guiando a la persona a dar el primer paso, asegurarse de que la persona en situación de discapacidad tenga tiempo para subir detrás.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 Apoyar a la persona para que tome asiento, la mejor forma de hacer esto es tomar una silla y poner la mano de la persona en la parte trasera de la silla para que se pueda sentar, mientras se realiza esto, referencie la altura aproximada de la silla e indique hacia qué lado está.
-                  .row.p-4
-                    .col-md-12.p-3
+                  .row.p-2.p-md-4
+                    .col-md-12
                       p.mb-0 En la interacción utilizar términos que le sirvan de orientación espacial, para permitir su mejor ubicación. Palabras como arriba, abajo, a la derecha, a la izquierda, detrás, entre otras. Usualmente las personas con discapacidad visual suelen utilizar con frecuencia las palabras “ver” o “mirar”, por lo que no se debe tener prejuicios con el uso de ellas. 
         .tarjeta.bgr_13.p-4
           .row.justify-content-center.mb-4

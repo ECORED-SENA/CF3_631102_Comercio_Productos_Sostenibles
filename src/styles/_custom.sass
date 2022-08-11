@@ -78,7 +78,9 @@
   color: #EA3584
   &_1
     color: #6826CC
-
+  &_2
+    i, span
+      color: white !important
 //FONDOS//
 .bgr
   background-color: #FFE0F0
@@ -95,8 +97,13 @@
     background-color: #ECEDF4
   &_6
     border-left: 5px solid #EA3584
+    @media screen and (max-width: 420PX)
+      border-left: none
+      
   &_7
     border-right: 5px solid #EA3584
+    @media screen and (max-width: 420PX)
+      border-right: none
   &_8
     background-image: url("../assets/curso/tema1/fondo2.svg")
     background-repeat: no-repeat
@@ -221,9 +228,17 @@
   &_23
     background: rgb(255,250,231);
     background: linear-gradient(90deg, rgba(255,250,231,1) 0%, rgba(255,255,255,1) 100%);
-  
-  
-
+  &_24
+    background-color: white
+    height: 56%
+    @media screen and (max-width: 420px)
+      height: 20%
+  &_25
+    background-color: white
+    height: 56%
+    @media screen and (max-width: 420px)
+      height: 27%
+      
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -294,7 +309,7 @@
       top: -16px
 .bg_grad-04
   position: relative
-  .slyder-f
+  .slyder-f, .titulo-segundo
     position: relative
   &::before
     content: ''
@@ -311,7 +326,7 @@
       background-image: url("../assets/curso/tema2/fondo2.svg")
 .bg_grad-05
   position: relative
-  .row, p, h2, .titulo-segundo
+  .row, p, h2, .titulo-segundo, h4
     position: relative
   &::before
     content: ''
@@ -393,7 +408,7 @@
     background-repeat: no-repeat
     background-size: cover
     @media screen and (max-width: 420px)
-      background-image: url("../assets/curso/tema3/fondo6.svg")
+      background-image: none
 .bg_grad-10
   position: relative
   p, .row
@@ -462,8 +477,9 @@
       .bloque-texto-g__texto
         left: 0
   &_4
-    width: 98%
+    width: 94%
     margin-top: 24px
+    margin-left: 4%
   &_5
     font-size: 1.125em
   &_6
@@ -487,6 +503,18 @@
     left: 95%
     @media screen and (max-width:992px)
       left: 92%
+  &_11
+    height: 56%
+    @media screen and (max-width: 420px)
+      height: 20%
+  &_12
+    height: 56%
+    @media screen and (max-width: 420px)
+      height: 27%
+  &_13
+    font-size: 10px
+    top: 7px !important
+      
       
   
     
@@ -509,6 +537,8 @@
 .img-infografica-b__modal
   background-color: #FFFAE7
   border-radius: 10px
+  display: flex
+  align-items: center
 .img-infografica-b__modal__contenido 
   div > * 
     color: #12263F !important
@@ -522,5 +552,6 @@
   background-color: #6826CC
   i
     color: white
+
 
   

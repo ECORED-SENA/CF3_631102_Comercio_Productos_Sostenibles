@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_2
         span 4
       h1 Reportes
     
-    p.mb-5 El reporte en venta es el informe que recopila las actividades comerciales desarrolladas en una empresa, el objetivo del informe es evaluar el desempeño del departamento comercial, las estrategias de ventas y el trabajo de los vendedores, este informe permite identificar las fallas y oportunidades de mejora de los procesos.
+    p.mb-5(data-aos="fade-up") El reporte en venta es el informe que recopila las actividades comerciales desarrolladas en una empresa, el objetivo del informe es evaluar el desempeño del departamento comercial, las estrategias de ventas y el trabajo de los vendedores, este informe permite identificar las fallas y oportunidades de mejora de los procesos.
 
     .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
       .col-12.col-md-10.mb-5  
@@ -52,16 +52,16 @@
             p Indicadores que se pueden lograr en un reporte de ventas diario:
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Número de reuniones/propuestas realizadas por representante.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Número de conversaciones exitosas por representante.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Número de nuevos clientes calificados por representante.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle.pst_13
                 | Número de nuevos prospectos creados por cada vendedor.
           
           p Cada uno de los indicadores está enfocado en una etapa del ciclo de vida de la venta, esto garantiza que los vendedores se enfoquen en sostener un volumen de actividades productivas en cada etapa del proceso.
@@ -102,7 +102,7 @@
     
     p.mb-5 Este reporte tiene como objetivo identificar cualquier problema que se descubra y que esté afectando a la empresa, proporciona una visión generalizada del desempeño de los representantes de ventas, deja ver cómo estos afectan a los objetivos del equipo de ventas y a la empresa a largo plazo, también ayudan a tener una visión clara sobre el departamento comercial.
 
-    figure
+    figure(data-aos="flip-down")
       img(src='@/assets/curso/tema4/t4-5.png', alt='Texto que describa la imagen')
 
  

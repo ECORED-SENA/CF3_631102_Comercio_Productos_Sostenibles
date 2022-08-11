@@ -3,13 +3,13 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_2
         span 1
       h1 Exhibición y planimetría
       
-    p Es el proceso donde se seleccionan, ubican y exponen los artículos en el punto de venta, de tal forma que llamen la atención del cliente invitándolo a la compra, la exhibición comercial se selecciona según el tamaño y el tipo de establecimiento condicionando la distribución de los productos a ofertar. 
+    p(data-aos="fade-up") Es el proceso donde se seleccionan, ubican y exponen los artículos en el punto de venta, de tal forma que llamen la atención del cliente invitándolo a la compra, la exhibición comercial se selecciona según el tamaño y el tipo de establecimiento condicionando la distribución de los productos a ofertar. 
 
-    p.mb-5 La exposición de los artículos en un almacén o establecimiento se hace mediante el uso de un mobiliario especial, que permite mostrar al cliente la mayor cantidad de productos durante el mayor tiempo posible.
+    p(data-aos="fade-up").mb-5 La exposición de los artículos en un almacén o establecimiento se hace mediante el uso de un mobiliario especial, que permite mostrar al cliente la mayor cantidad de productos durante el mayor tiempo posible.
 
     .row.d-flex.justify-content-center.mb-5
       .col-12.col-md-4
@@ -67,24 +67,24 @@
       .col-12.col-md-9
         ul.lista-ul--color.mb-0
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | La situación de las secciones: cantidad de productos en góndola o exhibición adicional.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | La circulación: espacio por donde van a circular los clientes.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Lugares y puntos de venta fríos y calientes: en los fríos la venta es baja, los calientes incrementan las ventas.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Elementos en el exterior del punto de venta: elementos que llaman la atención y despiertan el interés del comprador.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Áreas complementarias: bodegaje, servicios adicionales y entretenimiento.
     
     p.mb-5 No importa cuál sea el tipo de exhibición que se elija en el establecimiento, deberá motivar en el cliente la acción de compra, por lo que se deben tener en cuenta las actividades programadas en el punto de venta, lo mismo que la temporada y los objetivos de venta. De esta manera, se puede pensar en tener exhibiciones especiales, secundarias o adicionales. En el siguiente video se presentan los tipos de exhibición más comunes:
 
-    figure.mb-5.mt-5
+    figure.mb-5.mt-5(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
@@ -159,13 +159,13 @@
         .bgr_4.px-3.py-2
           p.mb-0.text-center En el siguiente video se presentan las funciones principales del planograma: 
 
-    figure
+    figure(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1  Demostraciones
 
     p.mb-5 La demostración de productos en el punto de venta se convierte en una estrategia importante para la venta, al realizar esta acción se debe elegir el lugar del evento, los días en los que se hará la demostración, la creatividad con la que se haga la demostración, con el fin de que se convierta en una experiencia satisfactoria para el cliente. 
@@ -180,16 +180,16 @@
 
         ul.lista-ul--color.mb-0
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Mejor posicionamiento del producto en el mercado.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Se aumentan las ventas del producto.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Para los compradores va a ser más fácil recordarlo.
           li.mb-0 
-            i.lista-ul__vineta
+            i.fas.fa-circle.pst_13
             | Se impone la marca sobre la competencia.
 
     p Para lograr una buena demostración es importante tener en cuenta los materiales del diseño con los que contará el evento, los cuales deben ser llamativos y deben atraer al público, para la organización del evento se requiere de algunos recursos tales como el punto de venta en el que se realizará y el material promocional.
@@ -204,16 +204,16 @@
     p.mb-5 Hacer una buena publicidad de la fecha y hora de la demostración ayuda a que la afluencia de clientes sea masiva, las redes sociales pueden ser buenas aliadas para tal fin. Con el ánimo de incentivar a los consumidores se debe realizar distintas acciones como juegos, promociones, rifas, etc.
 
     .row.d-flex.justify-content-center
-      .col-12.col-md-1.bgr_6.mb-3.mb-md-0
+      .col-12.col-md-1.bgr_6.mb-3.mb-md-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img80(src='@/assets/curso/tema1/t1-19.svg', alt='tabla con e calificaciones')
-      .col-12.col-md-9.bgr_7
+      .col-12.col-md-9.bgr_7(data-aos="fade-left")
         p.mb-0 Terminado el evento es importante conocer los resultados y la aceptación del público, que éxito u objeciones hubo, con el fin de poner en conocimiento de la marca para mejorar futuras demostraciones, esto se puede hacer a través de una encuesta de satisfacción. 
     
     separador
 
     .bg_grad-01
-      #t_1_2.titulo-segundo.color-acento-contenido
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Condiciones comerciales
       
     

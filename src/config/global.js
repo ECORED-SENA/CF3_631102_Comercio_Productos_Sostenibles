@@ -56,6 +56,20 @@ export default {
         numero: '2',
         titulo: 'Inclusión',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Discapacidad',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Normativas',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -79,7 +93,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'HArgumentos',
+            titulo: 'Argumentos',
             hash: 't_3_3',
           },
           {
