@@ -128,6 +128,7 @@
                 img.img90(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
               p.mb-0 En beneficios, el interrogante a resolver es el para qué, es decir, qué es aquello (tangible o intangible) que obtendrá la persona o empresa que adquiera el producto.
+            hr.pst_4  
 
       .row.mb-5.justify-content-center
         .col-12.col-md-3.mb-3.mb-md-0
@@ -192,6 +193,7 @@
                 img.img90(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
               p.mb-0 En la acción, es concretar el proceso, es decir, lograr el cierre de la venta, hacer que el receptor del mensaje (nuestro cliente prospecto) haga lo que espera el vendedor, que no es má s que comprar el producto.
+            hr.pst_4
     
     .row.mb-5.justify-content-center
       .col-12.col-md-10
@@ -270,6 +272,7 @@
                 img.img90(src='@/assets/curso/tema3/t3-19.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
               p.mb-0 <b>Necesidad de solución:</b> se deberán formular preguntas que sugieran al cliente cómo el producto que se está ofreciendo puede satisfacer la necesidad que se tiene en el momento. Se  debe presentar el producto como la solución.
+            hr.pst_4
 
       .row.mb-5.justify-content-center
         .col-12.col-md-10
@@ -294,7 +297,7 @@
       
       .row.justify-center.mb-5(data-aos="zoom-out-up").justify-content-center
         .col-12.col-lg-10
-          .bloque-texto-g.bgr_10.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema3/t3-20.png')})`}"
             )
@@ -332,7 +335,8 @@
               img.img90(src='@/assets/curso/tema3/t3-24.svg' alt='AvatarTop')
           .col-12.col-lg-11.d-flex.align-items-center
             p.mb-0 <b>Prioridad:</b> consiste en hacer comparaciones con el cliente, ayudarle a diferenciar entre lo importante y lo prioritario asociado a las características que requiere y que necesita del servicio. En este proceso se valoran la sinceridad y la flexibilidad del vendedor. 
-    
+          hr.pst_4
+
     .row.mb-5.justify-content-center
       .col-12.col-md-10
         p A partir del siguiente ejemplo quedará más clara la comprensión del modelo SNAP, un vendedor vende tarjetas de crédito y desea aplicar la técnica.

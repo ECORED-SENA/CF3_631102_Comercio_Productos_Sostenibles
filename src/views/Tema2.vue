@@ -96,14 +96,15 @@
       SlyderF(columnas="col-lg-12 col-xl-12")(data-aos="flip-down")
         .tarjeta.bgr_13.p-4
           .row.justify-content-center.mb-3
-            .col-12.col-md-5.mb-3.mb-md-0
-              p.mb-0.text-bold Personas en situación discapacidad visual 
-              p.mb-0 Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.  Algunos protocolos de atención y servicio, que pueden ser de utilidad para un vendedor de ventas mayoristas en el momento de interactuar con personas en situación de discapacidad visual son:
+            .col-12.col-md-7.mb-3.mb-md-0.d-flex.align-items-center
+              div
+                p.mb-0.text-bold Personas en situación discapacidad visual 
+                p.mb-0 Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.  Algunos protocolos de atención y servicio, que pueden ser de utilidad para un vendedor de ventas mayoristas en el momento de interactuar con personas en situación de discapacidad visual son:
             .col-12.col-md-5
               figure
                 img(src='@/assets/curso/tema2/t2-6.png', alt='Texto que describa la imagen')
           .row.justify-content-center
-            .col-10
+            .col-12
               .tarjeta.bgr_14.p-2.p-md-4.mb-5  
                 SlyderA(tipo="b")
                   .row.p-2.p-md-4
