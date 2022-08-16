@@ -192,7 +192,7 @@
               figure.d-flex.justify-content-center
                 img.img90(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
             .col-12.col-lg-11.d-flex.align-items-center
-              p.mb-0 En la acción, es concretar el proceso, es decir, lograr el cierre de la venta, hacer que el receptor del mensaje (nuestro cliente prospecto) haga lo que espera el vendedor, que no es má s que comprar el producto.
+              p.mb-0 En la acción, es concretar el proceso, es decir, lograr el cierre de la venta, hacer que el receptor del mensaje (nuestro cliente prospecto) haga lo que espera el vendedor, que no es más que comprar el producto.
             hr.pst_4
     
     .row.mb-5.justify-content-center
@@ -206,7 +206,7 @@
             .row.p-4
               .col-md-12.p-3
                 p.mb-0.text-bold Atención
-                p.mb-0 Señor ¿se ha preguntado si en vez de comprar cada mes sus insumos de cafetería comprará de forma mensual sus elementos?
+                p.mb-0 Señor ¿se ha preguntado si en vez de comprar cada semana sus insumos de cafetería comprará de forma mensual sus elementos?
             .row.p-4
               .col-md-12.p-3
                 p.mb-0.text-bold Interés
@@ -368,7 +368,7 @@
         .h2 3.1 Habilidades en ventas 
     
     p Para ser un vendedor exitoso se requiere tener poder de convencimiento, puesto que actualmente los vendedores se han visto en la obligación de evolucionar en sus tácticas de ventas, esto se debe a que la tecnología ha cambiado la forma de vender; pero a pesar de todo las habilidades siguen presentes y deben reforzarse constantemente.
-    p.mb-5 Existe una serie de características que destacan a un vendedor a continuación se relacionan las siguientes:
+    p.mb-5 Existe una serie de características que destacan a un vendedor, a continuación se relacionan las siguientes:
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -563,7 +563,7 @@
         
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        .row.justify-content-center.bgr_21.p-4
+        .row.justify-content-center.bg_grad-12.p-4
           .col-12.col-md-2.mb-3.mb-md-0
             .bgr_24.px-2
               p.m-0 <b>Escuchar:</b> no emitir juicios apresurados y prestar completa atención a lo que dice.
@@ -734,7 +734,7 @@
                 | Esta es la mejor compra que va a hacer.
 
     p Cuando el vendedor hace esto, el prospecto siente que lo están presionando, pierde el interés y la confianza, lo más probable es que pierda la venta. 
-    p Las estrategias que se utilizan para el cierre de la venta tienen como objetivo ayudar al cliente a tomar una decisión, esta etapa suele generar tensión para el cliente y para el vendedor, para el cliente porque puede estar errando en su compra y para el vendedor porque puede perder la venta después de haber hacho un buen trabajo. 
+    p Las estrategias que se utilizan para el cierre de la venta tienen como objetivo ayudar al cliente a tomar una decisión, esta etapa suele generar tensión para el cliente y para el vendedor, para el cliente porque puede estar errando en su compra y para el vendedor porque puede perder la venta después de haber hecho un buen trabajo. 
     p.mb-5 Los vendedores en el cierre de la venta deben actuar con actitud positiva, esto demostrará que se ha llegado a un acuerdo con el cliente, se debe fijar la cantidad del producto, el color, la fecha, el lugar, etc.
 
     .row.justify-content-center(data-aos="fade-down")
@@ -752,7 +752,7 @@
     
     .row.d-flex.justify-content-center
       .col-12.col-md-9.bgr_7.bgr_6
-        p.mb-0 Es de suma importancia ofrecerle al cliente dos alternativas para que el elija la que más se ajuste a su necesidad, por ejemplo, color negro o blanco, se le envía 200 unidades o 250 unidades, el pago lo hará de contado o necesita crédito, esto le da la sensación al cliente que tomó la decisión final y que tuvo la última palabra. 
+        p.mb-0 Es de suma importancia ofrecerle al cliente dos alternativas para que él elija la que más se ajuste a su necesidad, por ejemplo, color negro o blanco, se le envía 200 unidades o 250 unidades, el pago lo hará de contado o necesita crédito, esto le da la sensación al cliente que tomó la decisión final y que tuvo la última palabra. 
 
     separador
 

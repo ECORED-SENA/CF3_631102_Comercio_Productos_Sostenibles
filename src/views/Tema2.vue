@@ -70,7 +70,7 @@
           figure
             img(src='@/assets/curso/tema2/t2-4.png', alt='Texto que describa la imagen')
         .col-12.col-md-9(data-aos="fade-up-right")
-          p Como se mencionaba previamente, la discapacidad es un tema tan relevante dentro de la inclusión que vale la pena mirarlo en detalle. En el informe Mundial de la Discapacidad de la OMS y del Banco Mundial de 201 se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación se mencionan como contexto algunas consideraciones:
+          p Como se mencionaba previamente, la discapacidad es un tema tan relevante dentro de la inclusión que vale la pena mirarlo en detalle. En el informe Mundial de la Discapacidad de la OMS y del Banco Mundial de 2021 se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación se mencionan como contexto algunas consideraciones:
           .bgr_10.p-4
             ul.lista-ul--color
               li.mb-2
@@ -98,7 +98,7 @@
           .row.justify-content-center.mb-3
             .col-12.col-md-7.mb-3.mb-md-0.d-flex.align-items-center
               div
-                p.mb-0.text-bold Personas en situación discapacidad visual 
+                p.mb-0.text-bold Personas en situación de discapacidad visual 
                 p.mb-0 Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.  Algunos protocolos de atención y servicio, que pueden ser de utilidad para un vendedor de ventas mayoristas en el momento de interactuar con personas en situación de discapacidad visual son:
             .col-12.col-md-5
               figure
@@ -202,7 +202,7 @@
             img(src='@/assets/curso/tema2/t2-13.png', alt='Texto que describa la imagen')
       .row(titulo="5. Ley 1098 de 2006 (Código de la Infancia y la Adolescencia)")
         .col-md-8.mb-4.mb-md-0.px-5
-          p En su Artículo 202, hace mención a los objetivos de las políticas públicas, definiendo que se debe “Diseñar y poner en marcha acciones para lograr la inclusión de la población infantil más vulnerable a la vida social en condiciones de igualdad”. Este es un punto interesante, ya que pone de manifiesto un aspecto clave de la inclusión social, relacionado con la prioridad que deben tener los niños (as) en la sociedad.
+          p En su Artículo 202, hace mención a los objetivos de las políticas públicas, definiendo que se debe “Diseñar y poner en marcha acciones para lograr la inclusión de la población infantil más vulnerable a la vida social en condiciones de igualdad”. Este es un punto interesante, ya que pone de manifiesto un aspecto clave de la inclusión social, relacionado con la prioridad que deben tener los niños(as) en la sociedad.
         .col-md-4
           figure
             img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
@@ -242,7 +242,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/tema2/t2-20.png', alt='Texto que describa la imagen')
-      .row(titulo="12. Plan Nacional de Desarrollo Colombia 2018- 2022")
+      .row(titulo="12. Plan Nacional de Desarrollo Colombia 2018-2022")
         .col-md-8.mb-4.mb-md-0.px-5
           p Los planes nacionales de desarrollo conocidos como PND por sus abreviaturas constituyen la carta de actuación para un gobierno. Acorde con la situación actual dentro del llamado “Pacto por la Equidad”; el Plan Nacional de Colombia para su período 2018- 2022 establece varios capítulos donde se hace alusión al tema de inclusión en el ítem asociado a la participación ciudadana, se relaciona la promoción del diálogo, la inclusión democrática y la libertad de cultos para la equidad; en su capítulo del trabajo pone explícito el componente de trabajo decente, acceso a mercados e ingresos dignos, acelerando la inclusión productiva, así mismo, referencian también un capítulo enfocado en el pacto por la inclusión de todas las personas con discapacidad y en el aspecto de inclusión social se plantea el compromiso de sacar 1,5 millones de personas de la pobreza extrema.
         .col-md-4

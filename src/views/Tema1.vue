@@ -99,7 +99,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Se recomienda que la exhibición ambiente en el punto de venta sea con una presentación llamativa de los artículos, además de colorida, imponente y al alcance de los clientes, con precios justos, y cuando sea posible, con degustaciones que hagan que el consumidor conozca de primera mano un producto.
 
-        span.colr.text-bold Las zonas para la exhibición comercial 
+        span.colr.text-bold Las zonas para la exhibición comercial: 
         | son los espacios donde se ubican los productos ya sea horizontal o verticalmente, esto facilita una mejor visión de las promociones que realizan los diferentes formatos comerciales, para la exhibición se debe manejar la creatividad de quien ejecuta la función, las zonas se definen como zona caliente y zona fría. Son zonas imaginarias que dividen el espacio en dos partes iguales:  
 
         .row.mb-5.mt-5
@@ -120,7 +120,7 @@
                   p.mb-0 Área de circulación por donde el cliente transita muy poco, su técnica consiste en ubicar productos de mayor rotación y promociones de venta, con el objetivo de hacer transitar a los clientes por todo el lugar. 
                 .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.svg')})`}")
         
-        span.colr.text-bold En las zonas de acceso 
+        span.colr.text-bold En las zonas de acceso: 
         | se debe tener en cuenta los productos que se exhiben dependiendo de la puerta de acceso al establecimiento, la persona encargada de la exhibición debe recordar estos aspectos:
       
     .row.mb-5

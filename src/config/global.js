@@ -181,7 +181,7 @@ export default {
     {
       tema: 'Argumentos',
       referencia:
-        '<em>InboundCycle - Marketing</em> y ventas <em>inbound.</em> (2022). Argumentario de ventas - Qué es, cómo crearlo y por qué necesitas uno.',
+        '<em>InboundCycle - Marketing</em> y ventas <em>inbound.</em> (2021). Argumentario de ventas - Qué es, cómo crearlo y por qué necesitas uno.',
       tipo: 'Video',
       link: 'https://youtu.be/nvIgid0m8CI',
     },
