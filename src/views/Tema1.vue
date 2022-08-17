@@ -86,8 +86,8 @@
 
     figure.mb-5.mt-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/japTpsqSngk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zd_mKQqGEgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.mb-5 Una exhibición debe tener un grupo de características que avalen su funcionalidad y logren que se cumplan los objetivos del establecimiento, por esta razón, la exhibición debe ser visible y atractiva a los ojos del cliente y, además, debe ser sencilla, visible, atractiva, accesible, comunicativa, rellenable, segura, alegre, limpia, estable y con precio visible.
 
     .row.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
